@@ -13,18 +13,18 @@ public class MainTest extends CoreTestCase {
     @Test
     public void testAllSteps()
     {
-        System.out.println("MarketStart - OK");
+        System.out.println("Запуск теста");
         PageHomeObject pageHomeObject = new PageHomeObject();
         pageHomeObject.goToMarket();
-        System.out.println("MarketVisit - OK");
+
 
         PageMarket pageMarket = new PageMarket();
         String productName ="Ноутбуки";
-        //String productName2 ="Зеленый слоник";
+
         pageMarket.fillSearchField(productName);
         pageMarket.checkSearchField(productName);
         pageMarket.startSearching();
-        System.out.println("Start and Check Searching - OK");
+
 
         PageSearchResult pageSearchResult = new PageSearchResult();
 

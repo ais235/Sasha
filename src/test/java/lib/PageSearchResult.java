@@ -178,7 +178,7 @@ public class PageSearchResult extends MainPageObject{
                 );
             } else
             {
-                System.out.println("Упс, что-то пошло не так - желаемого товара нет на странице");
+                System.out.println("Упс, что-то пошло не так - толстовки зелёный слоник нет на странице");
             }
 
     }
